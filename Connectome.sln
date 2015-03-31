@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Connectome", "Connectome\Connectome.fsproj", "{27F39C16-9D69-44E7-AEF3-A251D708ABD0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WormSim", "WormSim\WormSim.fsproj", "{F26039B8-710F-475C-A76D-60D2BE88D57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F39C16-9D69-44E7-AEF3-A251D708ABD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F39C16-9D69-44E7-AEF3-A251D708ABD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F39C16-9D69-44E7-AEF3-A251D708ABD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F39C16-9D69-44E7-AEF3-A251D708ABD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26039B8-710F-475C-A76D-60D2BE88D57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26039B8-710F-475C-A76D-60D2BE88D57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26039B8-710F-475C-A76D-60D2BE88D57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26039B8-710F-475C-A76D-60D2BE88D57E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
