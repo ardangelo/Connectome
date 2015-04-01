@@ -50,6 +50,13 @@
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Connectome\Connectome.fsproj">
+      <Name>Connectome</Name>
+      <Project>{27f39c16-9d69-44e7-aef3-a251d708abd0}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
   </PropertyGroup>
